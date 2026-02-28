@@ -1,7 +1,7 @@
-# -
+#＃-
 題目： 臨床試驗缺失資料敏感度分析
 
-## Project Overview
+# Project Overview
 本專案旨在探討臨床試驗資料中缺失值（Missing Data）的處理方式及其對研究結論的影響。臨床研究中缺失值為常見現象，可能源自資料輸入錯誤、受試者退出試驗、非人為疏失或資料蒐集困難等因素。若未適當處理，缺失值可能導致估計偏差、降低統計檢定力，甚至產生錯誤結論。
 
 雖然多數統計軟體預設採用完整個案分析（Complete Case Analysis）刪除含缺失值樣本，但此方法可能同時移除其他已觀測且具價值的資料，進而影響推論結果。因此，本研究以重度憂鬱症（Major Depressive Disorder, MDD）臨床試驗資料為例，系統性地進行缺失資料探索性分析，並比較多種缺失資料處理方法，包括完整個案分析、單一插補（Single Imputation）、多重插補（Multiple Imputation）、Reference-Based Imputation 以及 Tipping Point Analysis，透過敏感度分析評估不同方法下研究結論的不確定性與穩健性，建立完整且嚴謹的臨床試驗缺失資料分析流程。
